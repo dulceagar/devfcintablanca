@@ -1,0 +1,37 @@
+/* * {
+Prueba para saber si conectó mi css desde html
+  background-color: red;
+} */
+
+
+
+
+h1{
+  color: #4a224b
+}
+
+
+h2{
+  color: rgb(39, 164, 204)
+}
+
+p{
+  color: rgb(29, 20, 217)
+  text-align: center;
+
+}
+
+
+h1{font-size: 100
+}
+
+main p {
+  color:red;
+};
+
+
+.imgRedonda {
+    width:300px;
+    height:300px;
+    border-radius:150px;
+}

@@ -1,0 +1,79 @@
+.card,
+.envelope{
+  background: #fff;
+  box-shadow: -1px 8px 3px o rgba(0, 0, 0, 0.5);
+  height: 21em;
+ padding: 2em;
+ position: relative;
+ width: 15em;
+}
+.envelope {
+  background: #52d158;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.8);
+  margin: -2em -2em;
+  position: absolute;
+  transform: rotate(-11deg);
+  z-index: -1;
+}
+h1 {
+  font-size: 2.3em;
+  font-weight: 800;
+  margin: 0;
+  width: 90%;
+}
+
+em {
+  color: #52d158;
+  font-style: normal;
+}
+
+h3{
+color: red;
+font-style: oblique;
+
+}
+.heart {
+  bottom: 5em;
+  position: absolute;
+  right: 10em;
+}
+
+.heart::before,
+.heart::after {
+  background-color: #cd231b;
+  border-radius: 50px 50px 0 0;
+  content: "";
+  height: 25px;
+  left: 15px;
+  position: absolute;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+  width: 15px;
+}
+
+.heart::after {
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+}
+
+
+
+/* general styling */
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  align-items: center;
+  background-color: #c7c7c7;
+  display: flex;
+  font: 16px/1.05 "Montserrat", sans-serif;
+}
+
+
+.container {
+  margin: 0 auto;
+}
